@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Face 2 Emoji</string>
+
+    <!-- Emotion subscription key -->
+    <!-- Please refer to https://www.projectoxford.ai/ to get your subscription key -->
+    <!-- If you have one subscription key, you can add it here to use the service -->
+    <string name="subscription_key">0e4b53bbeeb842608be809bcc09c0e2c</string>
+
+    <!-- Face subscription key -->
+    <!-- Please refer to http://oxford-portal.azurewebsites.net/doc/general/subscription-key-mgmt to get your subscription key -->
+    <!-- Please note that the Emotion API and Face API have different subscription keys -->
+    <!-- You will need Face subscription key, besides the Emotion subscription keys, for the second part of the sample to work -->
+    <string name="faceSubscription_key">979467bdf2be4a6ead6f52f853d1dbce</string>
+
+    <!-- Display strings -->
+    <string name="add_subscription_key_tip_title">Subscription Key is Needed</string>
+    <string name="add_subscription_key_tip">Please put your two subscription keys for Emotion API/Face API to source file \"app/res/values/strings.xml\" to enable Emotion API and Face API calls.</string>
+    <string name="action_settings">Version 1.0.0</string>
+    <string name="title_activity_analyze">AnalyzeActivity</string>
+    <string name="title_activity_recognize">RecognizeActivity</string>
+    <string name="title_activity_thumbnail">ThumbnailActivity</string>
+
+    <!-- Select image activity -->
+    <string name="select_an_image">Select an Image</string>
+    <string name="take_photo">Emoji</string>
+    <string name="select_image_in_album">From Gallery</string>
+    <string name="send">Send</string>
+
+
+</resources>

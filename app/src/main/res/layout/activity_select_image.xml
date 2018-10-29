@@ -1,0 +1,123 @@
+<!-- Copyright (c) Microsoft. All rights reserved. -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    tools:context="com.microsoft.projectoxford.emotionsample.helper.SelectImageActivity">
+
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="100"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            >
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="100"
+                android:orientation="horizontal">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Type Phone Number Here"
+                android:id="@+id/phoneNo"
+                android:inputType="phone"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:layout_weight="100"
+                android:gravity="left"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contacts"
+                android:id="@+id/button"
+                android:layout_weight="0"
+                android:gravity="right"
+                />
+            </LinearLayout>>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="107dp"
+                android:layout_gravity="center"
+                android:weightSum="100"
+                android:layout_marginBottom="0dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/linearLayout2">>
+
+                <EditText
+                    android:layout_width="277dp"
+                    android:layout_height="107dp"
+                    android:inputType="textMultiLine"
+                    android:ems="10"
+                    android:id="@+id/editTextResult"
+                    android:layout_gravity="left"
+                    android:hint="Emotion values"
+                    android:layout_weight="80"
+                    />
+
+                <LinearLayout
+                    android:layout_width="77dp"
+                    android:layout_height="107dp"
+                    android:orientation="vertical"
+                    android:layout_weight="20"
+                    android:weightSum="20"
+                    android:layout_above="@+id/linearLayout2"
+                    android:id="@+id/editText2"
+
+                    android:layout_gravity="right">
+
+                    <Button
+                    android:id="@+id/button_take_a_photo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/take_photo"
+                    android:onClick="takePhoto"
+                    style="@style/ButtonStyle"
+                     android:layout_weight="10"
+                        android:background="@color/material_blue_grey_800"/>
+
+
+                    <Button
+                        android:id="@+id/button_send"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/send"
+                        style="@style/ButtonStyle"
+                        android:layout_weight="10"
+                        android:textColor="@color/abc_primary_text_material_light"
+                        android:background="@color/background_material_light"/>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
