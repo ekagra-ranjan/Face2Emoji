@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Wim10\AndroidStudioProjects\Sample\app\build\intermediates\exploded-aar\com.microsoft.projectoxford\face\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="b9885b9cbfc39129a13674d39d0cae321fc0dc97">
+        <dex dex="C:\Users\Wim10\AndroidStudioProjects\Sample\app\build\intermediates\pre-dexed\debug\com.microsoft.projectoxford-face-1.0.0_fe0d6330e823784b440eb19d27e7bddece05206a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Wim10\AndroidStudioProjects\Sample\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\Wim10\AndroidStudioProjects\Sample\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-21.0.3_9edbe3bd52fa19cce9b4187497c7462e5adff134.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Ekagra\androidStudioSDK\androidStudioSDK\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\Wim10\AndroidStudioProjects\Sample\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3_af79c00fb175ac067e43669ddb3a0a38452815cd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Wim10\AndroidStudioProjects\Sample\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\Wim10\AndroidStudioProjects\Sample\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-21.0.3_4b9629f6402a4387c090db7884146b739c424550.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Wim10\AndroidStudioProjects\Sample\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\Wim10\AndroidStudioProjects\Sample\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3_311e7598282bda9a2099cd08d652b23e38725b33.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Wim10\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.5\686c608d1805b6d4d425ec4459e88164ffc85870\gson-2.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="686c608d1805b6d4d425ec4459e88164ffc85870">
+        <dex dex="C:\Users\Wim10\AndroidStudioProjects\Sample\app\build\intermediates\pre-dexed\debug\gson-2.5_401fb6c9824a73446dd30d37a479dded63850f29.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Wim10\AndroidStudioProjects\Sample\app\build\intermediates\exploded-aar\com.microsoft.projectoxford\emotion\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="85580f7e643f4e319878f282874afccc3b1b95ed">
+        <dex dex="C:\Users\Wim10\AndroidStudioProjects\Sample\app\build\intermediates\pre-dexed\debug\com.microsoft.projectoxford-emotion-1.0.0_d0f3d96912bfa2c365d18e698f58778509bc9353.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Wim10\AndroidStudioProjects\Sample\app\build\intermediates\exploded-aar\com.microsoft.projectoxford\emotion\1.0.0\jars\libs\commons-io-2.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad">
+        <dex dex="C:\Users\Wim10\AndroidStudioProjects\Sample\app\build\intermediates\pre-dexed\debug\commons-io-2.4_07be8c1314d84ccc107b56d54b0d050596164ed2.jar" />
+    </item>
+
+</items>
